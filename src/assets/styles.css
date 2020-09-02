@@ -1,0 +1,30 @@
+.box {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.box .box1 {
+    width: 15%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.box .box2 {
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+
+.box .box2 .box2__col1 {
+    width: 100%;
+    height: 15%;
+    background-color: darkgreen;
+}
+
+.box .box2 .box2__col2 {
+    width: 100%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
